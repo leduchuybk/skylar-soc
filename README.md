@@ -1,8 +1,10 @@
 # skylar-soc
 Abstract
+
 Nowadays, the demand for high energy efficiency in Internet-of-thing (IOT) devices is increasing. Meanwhile, RISC-V is gaining its fame as a trusty ISA in both academy and industrial field sectors. Therefore, this project aims to explore the possibility of implementing RISC-V core in IOT applications. To support core in calculation, there are some hardware accelerators modules implemented inside system.
 
 Features
+
 	Open-source RISC-V core CV32E40P from Open HWGroup
 	32-bit 4-stage pipeline in-order RISC-V core
 	Supported ISA: 
