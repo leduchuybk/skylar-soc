@@ -22,7 +22,7 @@ Open-source RISC-V core CV32E40P from Open HWGroup
   Frequency range: 10MHz-100MHz
   Power density: 15µW/MHz
 
-3. Contributors
+3. Contributors:
   Thanh-Dat Nguyen : RTL code, simulation, implementation, layout.
   Duc-Huy Le: RTL code, system integration, layout.
   Duy-Hieu Bui: advisor.
