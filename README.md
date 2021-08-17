@@ -3,6 +3,7 @@
   Nowadays, the demand for high energy efficiency in Internet-of-thing (IOT) devices is increasing. Meanwhile, RISC-V is gaining its fame as a trusty ISA in both academy and industrial field sectors. Therefore, this project aims to explore the possibility of implementing RISC-V core in IOT applications. To support core in calculation, there are some hardware accelerators modules implemented inside system.
 
 2. Features
+
 Open-source RISC-V core CV32E40P from Open HWGroup
   32-bit 4-stage pipeline in-order RISC-V core
   Supported ISA:
@@ -23,6 +24,7 @@ Open-source RISC-V core CV32E40P from Open HWGroup
   Power density: 15µW/MHz
 
 3. Contributors:
+
   Thanh-Dat Nguyen : RTL code, simulation, implementation, layout.
   Duc-Huy Le: RTL code, system integration, layout.
   Duy-Hieu Bui: advisor.
