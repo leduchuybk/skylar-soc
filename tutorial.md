@@ -1,22 +1,24 @@
-1. Checkout pulpissimo (branch: my_pulpissimo)
+1. Checkout sub modules
     ```
     git submodule update --init --recursive
     ```
-2. Checkout pulp-sdk and pulp-runtime* folders in pulpissimo
-    ```
-    git submodule update --init --recursive
-    ```
-    pulp-sdk: a complete sdk
-    pulp-runtime: a simple sdk
-    pulp-runtime-example: examples
+    * pulp-runtime: a simple sdk
+        * Minimal bare-metal runtime
+        * Boot-to-main
+        * Only uart driver
+        * FPGA support
+        * Active
+    * pulp-runtime-example: examples of pulp-runtime
+    * pulpissimo
 
-3. Build pulp-runtime:
+2. Build pulp-runtime:
     * Go into pulp-runtime folder
     * To use CV32E40P (formely RI5CY) core:
     ```
     source configs/pulpissimo.sh
     ```
-4. Simulation using simple sdk (pulp-runtime):
+
+3. Simulation using simple sdk (pulp-runtime):
     * Check out the latest version of the IPs composing the PULP system at pulpissimo folder
     ```
     make checkout
