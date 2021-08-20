@@ -11,14 +11,7 @@
     * pulp-runtime-example: examples of pulp-runtime
     * pulpissimo
 
-2. Build pulp-runtime:
-    * Go into pulp-runtime folder
-    * To use CV32E40P (formely RI5CY) core:
-    ```
-    source configs/pulpissimo.sh
-    ```
-
-3. Simulation using simple sdk (pulp-runtime):
+2. Simulation using simple sdk (pulp-runtime):
     * Check out the latest version of the IPs composing the PULP system at pulpissimo folder
     ```
     make checkout
@@ -32,8 +25,14 @@
     ```
     source setup/vsim.sh
     ```
+3. Build pulp-runtime:
+    * Go into pulp-runtime folder
+    * To use CV32E40P (formely RI5CY) core:
+    ```
+    source configs/pulpissimo.sh
+    ```
 
-5. Simulation hello example:
+4. Simulation hello example:
     ```
     cd pulp-runtime-examples/hello
     make clean all run # clean and build simulation
