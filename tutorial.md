@@ -26,3 +26,14 @@
     ```
     make build
     ```
+    * Source vsim setup
+    ```
+    source setup/vsim.sh
+    ```
+
+5. Simulation hello example:
+    ```
+    cd pulp-runtime-examples/hello
+    make clean all run # clean and build simulation
+    make run gui=1 #open gui
+    ```
