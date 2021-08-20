@@ -1,0 +1,3 @@
+export PULP_RISCV_GCC_TOOLCHAIN=/home/huyld/tools/riscv-pulp
+export PATH=$PULP_RISCV_GCC_TOOLCHAIN/bin:$PATH
+echo "Setting up PULP_RISCV_GCC_TOOLCHAIN"
